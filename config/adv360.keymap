@@ -17,11 +17,11 @@
             bindings = <&kp RET &kp A &kp L &kp I &kp DOT &kp R &kp E &kp D &kp H &kp A &kp DOT &kp A &kp L &kp I &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M &kp A &kp L &kp I &kp DOT &kp R &kp E &kp D &kp H &kp A &kp DOT &kp A &kp L &kp I &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
         };
 
-        secondEmail: secondEmail {
+        new_macro: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&none &kp A &kp L &kp J &kp U &kp F &kp A &kp I &kp R &kp I &kp AT &kp I &kp E &kp E &kp E &kp DOT &kp O &kp R &kp G>;
-            label = "SECONDEMAIL";
+            label = "NEW_MACRO";
         };
 
         #endif
@@ -77,7 +77,7 @@
             bindings = <
 &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                  &trans                  &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none         &none         &bootloader                                            &bootloader             &none  &none       &none       &none  &none  &none
-&none  &macro_ver    &none         &none         &secondEmail  &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
+&none  &macro_ver    &none         &none         &new_macro    &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &macro_ver    &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
             >;
