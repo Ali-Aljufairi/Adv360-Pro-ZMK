@@ -79,11 +79,11 @@
 
         macro {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans      &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &bl BL_OFF  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &mail   &name   &trans  &trans  &trans      &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans  &trans      &trans  &trans      &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp C_PREV  &trans  &kp C_NEXT  &trans  &bl BL_OFF  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mail       &name   &trans      &trans  &trans      &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans  &trans      &trans  &trans                      &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans  &trans      &trans              &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
