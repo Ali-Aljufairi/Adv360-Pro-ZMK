@@ -52,6 +52,11 @@
             key-positions = <61>;
             layers = <0>;
         };
+
+        Dfffsdfa {
+            bindings = <&kp D>;
+            key-positions = <35 37>;
+        };
     };
 
     keymap {
