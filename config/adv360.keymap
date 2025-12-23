@@ -44,6 +44,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo {
+            bindings = <&kp K_SCREENSAVER>;
+            key-positions = <61>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
